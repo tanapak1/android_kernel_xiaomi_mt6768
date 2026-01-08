@@ -134,25 +134,26 @@ static unsigned int g_ptpod_opp_idx_table_segment[] = {
 	0, 2, 4, 6,
 	8, 10, 12, 14,
 	16, 18, 20, 23,
-	25, 27, 29, 31
+	25, 27, 29, 31,
+	33, 35
 };
 
 static struct g_opp_table_info g_opp_table_segment[] = {
 GPUOP(SEG_GPU_DVFS_FREQ0,  SEG_GPU_DVFS_VOLT0,  SEG_GPU_DVFS_VSRAM0),
-GPUOP(SEG_GPU_DVFS_FREQ1,  SEG_GPU_DVFS_VOLT1,  SEG_GPU_DVFS_VSRAM1),
-GPUOP(SEG_GPU_DVFS_FREQ2,  SEG_GPU_DVFS_VOLT2,  SEG_GPU_DVFS_VSRAM2),
-GPUOP(SEG_GPU_DVFS_FREQ3,  SEG_GPU_DVFS_VOLT3,  SEG_GPU_DVFS_VSRAM3),
-GPUOP(SEG_GPU_DVFS_FREQ4,  SEG_GPU_DVFS_VOLT4,  SEG_GPU_DVFS_VSRAM4),
-GPUOP(SEG_GPU_DVFS_FREQ5,  SEG_GPU_DVFS_VOLT5,  SEG_GPU_DVFS_VSRAM5),
-GPUOP(SEG_GPU_DVFS_FREQ6,  SEG_GPU_DVFS_VOLT6,  SEG_GPU_DVFS_VSRAM6),
-GPUOP(SEG_GPU_DVFS_FREQ7,  SEG_GPU_DVFS_VOLT7,  SEG_GPU_DVFS_VSRAM7),
-GPUOP(SEG_GPU_DVFS_FREQ8,  SEG_GPU_DVFS_VOLT8,  SEG_GPU_DVFS_VSRAM8),
-GPUOP(SEG_GPU_DVFS_FREQ9,  SEG_GPU_DVFS_VOLT9,  SEG_GPU_DVFS_VSRAM9),
-GPUOP(SEG_GPU_DVFS_FREQ10, SEG_GPU_DVFS_VOLT10, SEG_GPU_DVFS_VSRAM10),
-GPUOP(SEG_GPU_DVFS_FREQ11, SEG_GPU_DVFS_VOLT11, SEG_GPU_DVFS_VSRAM11),
-GPUOP(SEG_GPU_DVFS_FREQ12, SEG_GPU_DVFS_VOLT12, SEG_GPU_DVFS_VSRAM11),
-GPUOP(SEG_GPU_DVFS_FREQ13, SEG_GPU_DVFS_VOLT13, SEG_GPU_DVFS_VSRAM11),
-GPUOP(SEG_GPU_DVFS_FREQ14, SEG_GPU_DVFS_VOLT14, SEG_GPU_DVFS_VSRAM11),
+GPUOP(SEG_GPU_DVFS_FREQ1,  SEG_GPU_DVFS_VOLT1,  SEG_GPU_DVFS_VSRAM0),
+GPUOP(SEG_GPU_DVFS_FREQ2,  SEG_GPU_DVFS_VOLT2,  SEG_GPU_DVFS_VSRAM0),
+GPUOP(SEG_GPU_DVFS_FREQ3,  SEG_GPU_DVFS_VOLT3,  SEG_GPU_DVFS_VSRAM0),
+GPUOP(SEG_GPU_DVFS_FREQ4,  SEG_GPU_DVFS_VOLT4,  SEG_GPU_DVFS_VSRAM0),
+GPUOP(SEG_GPU_DVFS_FREQ5,  SEG_GPU_DVFS_VOLT5,  SEG_GPU_DVFS_VSRAM1),
+GPUOP(SEG_GPU_DVFS_FREQ6,  SEG_GPU_DVFS_VOLT6,  SEG_GPU_DVFS_VSRAM2),
+GPUOP(SEG_GPU_DVFS_FREQ7,  SEG_GPU_DVFS_VOLT7,  SEG_GPU_DVFS_VSRAM3),
+GPUOP(SEG_GPU_DVFS_FREQ8,  SEG_GPU_DVFS_VOLT8,  SEG_GPU_DVFS_VSRAM4),
+GPUOP(SEG_GPU_DVFS_FREQ9,  SEG_GPU_DVFS_VOLT9,  SEG_GPU_DVFS_VSRAM5),
+GPUOP(SEG_GPU_DVFS_FREQ10, SEG_GPU_DVFS_VOLT10, SEG_GPU_DVFS_VSRAM6),
+GPUOP(SEG_GPU_DVFS_FREQ11, SEG_GPU_DVFS_VOLT11, SEG_GPU_DVFS_VSRAM7),
+GPUOP(SEG_GPU_DVFS_FREQ12, SEG_GPU_DVFS_VOLT12, SEG_GPU_DVFS_VSRAM8),
+GPUOP(SEG_GPU_DVFS_FREQ13, SEG_GPU_DVFS_VOLT13, SEG_GPU_DVFS_VSRAM9),
+GPUOP(SEG_GPU_DVFS_FREQ14, SEG_GPU_DVFS_VOLT14, SEG_GPU_DVFS_VSRAM10),
 GPUOP(SEG_GPU_DVFS_FREQ15, SEG_GPU_DVFS_VOLT15, SEG_GPU_DVFS_VSRAM11),
 GPUOP(SEG_GPU_DVFS_FREQ16, SEG_GPU_DVFS_VOLT16, SEG_GPU_DVFS_VSRAM11),
 GPUOP(SEG_GPU_DVFS_FREQ17, SEG_GPU_DVFS_VOLT17, SEG_GPU_DVFS_VSRAM11),
@@ -170,6 +171,10 @@ GPUOP(SEG_GPU_DVFS_FREQ28, SEG_GPU_DVFS_VOLT28, SEG_GPU_DVFS_VSRAM11),
 GPUOP(SEG_GPU_DVFS_FREQ29, SEG_GPU_DVFS_VOLT29, SEG_GPU_DVFS_VSRAM11),
 GPUOP(SEG_GPU_DVFS_FREQ30, SEG_GPU_DVFS_VOLT30, SEG_GPU_DVFS_VSRAM11),
 GPUOP(SEG_GPU_DVFS_FREQ31, SEG_GPU_DVFS_VOLT31, SEG_GPU_DVFS_VSRAM11),
+GPUOP(SEG_GPU_DVFS_FREQ32, SEG_GPU_DVFS_VOLT32, SEG_GPU_DVFS_VSRAM11),
+GPUOP(SEG_GPU_DVFS_FREQ33, SEG_GPU_DVFS_VOLT33, SEG_GPU_DVFS_VSRAM11),
+GPUOP(SEG_GPU_DVFS_FREQ34, SEG_GPU_DVFS_VOLT34, SEG_GPU_DVFS_VSRAM11),
+GPUOP(SEG_GPU_DVFS_FREQ35, SEG_GPU_DVFS_VOLT35, SEG_GPU_DVFS_VSRAM11),
 };
 
 static const struct of_device_id g_gpufreq_of_match[] = {
@@ -1608,7 +1613,7 @@ void __mt_gpufreq_update_aging(bool apply_aging_setting)
 				g_opp_table[i].gpufreq_volt -= 1875;
 			else if (i >= 10 && i <= (aging_margin_idx - 1))
 				g_opp_table[i].gpufreq_volt -= 1250;
-			else if (i >= aging_margin_idx && i <= 31)
+			else if (i >= aging_margin_idx && i <= 35)
 				g_opp_table[i].gpufreq_volt -= 625;
 
 	g_opp_table[i].gpufreq_vsram =
@@ -1625,7 +1630,7 @@ void __mt_gpufreq_update_aging(bool apply_aging_setting)
 				g_opp_table[i].gpufreq_volt += 1875;
 			else if (i >= 10 && i <= (aging_margin_idx - 1))
 				g_opp_table[i].gpufreq_volt += 1250;
-			else if (i >= aging_margin_idx && i <= 31)
+			else if (i >= aging_margin_idx && i <= 35)
 				g_opp_table[i].gpufreq_volt += 625;
 
 	g_opp_table[i].gpufreq_vsram =
@@ -2591,6 +2596,7 @@ static void __mt_gpufreq_setup_opp_table(struct g_opp_table_info *freqs, int num
 	}
 
 	/* setup segment max/min opp_idx */
+	/*
 	if (g_segment_id == MT6767_SEGMENT)
 		g_segment_max_opp_idx = 15;
 	else if (g_segment_id == MT6769T_SEGMENT)
@@ -2599,8 +2605,9 @@ static void __mt_gpufreq_setup_opp_table(struct g_opp_table_info *freqs, int num
 		g_segment_max_opp_idx = 0;
 	else
 		g_segment_max_opp_idx = 7;
-
-	g_segment_min_opp_idx = 31;
+	*/
+    g_segment_max_opp_idx = 0;
+	g_segment_min_opp_idx = 35;
 
 	g_max_opp_idx_num = num;
 	g_max_limited_idx = g_segment_max_opp_idx;
